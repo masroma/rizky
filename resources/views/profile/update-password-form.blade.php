@@ -28,7 +28,7 @@
                 <x-maz-input-error for="password_confirmation" />
             </div>
 
-            <button class="btn btn-primary float-end mt-2"  wire:loading.attr="disabled" wire:target="updatePassword">Save</button>
+            <button class="btn btn-danger float-end mt-2"  wire:loading.attr="disabled" wire:target="updatePassword">Save</button>
         </form>
 
     </div>

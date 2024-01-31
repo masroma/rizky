@@ -103,11 +103,11 @@
         }
     }
     .card-highlighted {
-        background-color: map-get($theme-colors, 'primary');
+        background-color: map-get($theme-colors, 'danger');
         padding-top: 20px;
         padding-bottom: 20px;
         .card-header, .card-body {
-            background-color: map-get($theme-colors, 'primary');
+            background-color: map-get($theme-colors, 'danger');
             color: $card-bg;
         }
         ul {
@@ -119,7 +119,7 @@
             }
         }
         .card-footer {
-            background-color: map-get($theme-colors, 'primary');
+            background-color: map-get($theme-colors, 'danger');
         }
         .card-title {
             color: #fff;

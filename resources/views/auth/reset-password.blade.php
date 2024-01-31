@@ -32,7 +32,7 @@
                     <i class="bi bi-shield-lock"></i>
                 </div>
             </div>
-            <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Reset Password</button>
+            <button class="btn btn-danger btn-block btn-lg shadow-lg mt-5">Reset Password</button>
         </form>
     </div>
 </x-guest-layout>

@@ -585,7 +585,7 @@ interface ButtonSpec {
     type: 'button';
     text: string;
     disabled?: boolean;
-    primary?: boolean;
+    danger?: boolean;
     name?: string;
     icon?: string;
     borderless?: boolean;
@@ -742,7 +742,7 @@ declare type DialogFooterMenuButtonItemSpec = DialogToggleMenuItemSpec;
 interface BaseDialogFooterButtonSpec {
     name?: string;
     align?: 'start' | 'end';
-    primary?: boolean;
+    danger?: boolean;
     disabled?: boolean;
     icon?: string;
 }
@@ -954,13 +954,13 @@ interface ContextFormToggleButtonInstanceApi extends BaseToolbarToggleButtonInst
 }
 interface ContextFormButtonSpec extends BaseToolbarButtonSpec<ContextFormButtonInstanceApi> {
     type?: 'contextformbutton';
-    primary?: boolean;
+    danger?: boolean;
     onAction: (formApi: ContextFormInstanceApi, api: ContextFormButtonInstanceApi) => void;
 }
 interface ContextFormToggleButtonSpec extends BaseToolbarToggleButtonSpec<ContextFormToggleButtonInstanceApi> {
     type?: 'contextformtogglebutton';
     onAction: (formApi: ContextFormInstanceApi, buttonApi: ContextFormToggleButtonInstanceApi) => void;
-    primary?: boolean;
+    danger?: boolean;
 }
 interface ContextFormInstanceApi {
     hide: () => void;

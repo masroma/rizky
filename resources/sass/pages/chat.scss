@@ -40,7 +40,7 @@
             position: relative;
 
             &.active {
-                background-color: $primary;
+                background-color: $danger;
                 .person-name, .message-excerpt {
                     color: #fff;
                 }

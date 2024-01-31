@@ -66,7 +66,7 @@
                 </div>
 
 
-                <button class="btn btn-primary float-end mt-2" wire:loading.attr="disabled" wire:target="photo">Save</button>
+                <button class="btn btn-danger float-end mt-2" wire:loading.attr="disabled" wire:target="photo">Save</button>
             </form>
         </div>
     </div>

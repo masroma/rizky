@@ -9608,7 +9608,7 @@ var ColorPicker = function (_Picker) {
     _this.label.innerHTML = label;
     _this.container.classList.add('ql-color-picker');
     [].slice.call(_this.container.querySelectorAll('.ql-picker-item'), 0, 7).forEach(function (item) {
-      item.classList.add('ql-primary');
+      item.classList.add('ql-danger');
     });
     return _this;
   }

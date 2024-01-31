@@ -612,14 +612,14 @@ body.theme-dark {
 
     body.theme-dark .form-check-input {
         background-color: #151521;
-        border: 2px solid $primary;
+        border: 2px solid $danger;
     }
 
     .email-application .content-body {
-        background-color: $primary;
+        background-color: $danger;
     }
 
     .email-application .content-area-wrapper .content-right .email-app-list-wrapper .email-app-list .email-action {
-        border-bottom: 1px solid $primary;
+        border-bottom: 1px solid $danger;
     }
 }

@@ -24,8 +24,8 @@
                     <h4>Default</h4>
                   </div>
                   <div class="card-body">
-                    <div class="alert alert-primary">
-                      This is primary alert.
+                    <div class="alert alert-danger">
+                      This is danger alert.
                     </div>
                     <div class="alert alert-success">
                       This is success alert.
@@ -47,8 +47,8 @@
                     <h4>With Icon</h4>
                   </div>
                   <div class="card-body">
-                    <div class="alert alert-primary">
-                      <i class="bi bi-star"></i> This is primary alert.
+                    <div class="alert alert-danger">
+                      <i class="bi bi-star"></i> This is danger alert.
                     </div>
                     <div class="alert alert-success">
                       <i class="bi bi-check-circle"></i> This is success alert.
@@ -73,8 +73,8 @@
                     <h4>Light</h4>
                   </div>
                   <div class="card-body">
-                    <div class="alert alert-light-primary color-primary">
-                      <i class="bi bi-star"></i> This is primary alert.
+                    <div class="alert alert-light-danger color-danger">
+                      <i class="bi bi-star"></i> This is danger alert.
                     </div>
                     <div class="alert alert-light-success color-success">
                       <i class="bi bi-check-circle"></i> This is success alert.
@@ -102,9 +102,9 @@
                     <h4>Heading</h4>
                   </div>
                   <div class="card-body">
-                    <div class="alert alert-primary">
-                      <h4 class="alert-heading">Primary</h4>
-                      <p>This is a primary alert.</p>
+                    <div class="alert alert-danger">
+                      <h4 class="alert-heading">danger</h4>
+                      <p>This is a danger alert.</p>
                     </div>
                     <div class="alert alert-secondary">
                       <h4 class="alert-heading">Secondary</h4>
@@ -141,8 +141,8 @@
                     <h4>Dismissable</h4>
                   </div>
                   <div class="card-body">
-                    <div class="alert alert-primary alert-dismissible fade show" role="alert">
-                      This is primary alert.
+                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                      This is danger alert.
                       <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                     </div>
                     <div class="alert alert-secondary alert-dismissible show fade">

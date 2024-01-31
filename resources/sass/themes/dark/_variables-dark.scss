@@ -3,7 +3,7 @@
 $dark-mode: true;
 
 $theme-colors-light: (
-  'primary': tint-color($primary, 25%),
+  'danger': tint-color($danger, 25%),
   'secondary': tint-color($secondary, 25%),
   'success': tint-color($success, 25%),
   'danger': tint-color($danger, 35%),
@@ -12,7 +12,7 @@ $theme-colors-light: (
 );
 
 $alert-colors: (
-    primary: (
+    danger: (
         text-color: #fff,
         background-color: #435ebe
     ),
@@ -65,12 +65,12 @@ $page-auth-right-bg:    linear-gradient(90deg, #151521, #151521) !default;
 $page-error-bg:         $body-bg;
 
 
-$link-color:                              $primary;
+$link-color:                              $danger;
 $link-shade-percentage:                   -20%;
 $link-hover-color:                        shift-color($link-color, $link-shade-percentage);
 
 $component-active-color:      #9899ac;
-$component-active-bg:         $primary;
+$component-active-bg:         $danger;
 
 $headings-color:              #fff;
 $text-muted:                  #7c8db5;
@@ -84,7 +84,7 @@ $table-hover-color:           $white;
 $table-hover-bg:              rgba($white, $table-hover-bg-factor);
 $table-group-separator-color: #707070;
 $table-variants: (
-  "primary":    shift-color($primary, $table-bg-scale),
+  "danger":    shift-color($danger, $table-bg-scale),
   "secondary":  shift-color($secondary, $table-bg-scale),
   "success":    shift-color($success, $table-bg-scale),
   "info":       shift-color($info, $table-bg-scale),
@@ -103,7 +103,7 @@ $divider-bg:    $gray-800;
 $divider-text-bg: $body-bg;
 
 $input-bg:                              #1b1b29;
-$input-btn-focus-color                  : $primary;
+$input-btn-focus-color                  : $danger;
 $input-disabled-bg:                     #40404d;
 $input-disabled-border-color:           null !default;
 $input-placeholder-color:               $gray-500;
@@ -204,7 +204,7 @@ $modal-header-border-color:         $border-color;
 $modal-footer-border-color:         $modal-header-border-color;
 
 $progress-bar-color:                $white;
-$progress-bar-bg:                   $primary;
+$progress-bar-bg:                   $danger;
 
 
 $list-group-color:                  #afb0be !default;

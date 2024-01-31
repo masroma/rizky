@@ -19,7 +19,7 @@
                     <i class="bi bi-envelope"></i>
                 </div>
             </div>
-            <button class="btn btn-primary btn-block btn-lg shadow-lg mt-5">Send Password Reset Link</button>
+            <button class="btn btn-danger btn-block btn-lg shadow-lg mt-5">Send Password Reset Link</button>
         </form>
         <div class="text-center mt-5 text-lg fs-4">
             <p class='text-gray-600'>Remember your account? <a href="{{ route('login')}}" class="font-bold">Log

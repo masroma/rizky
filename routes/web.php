@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\UserController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('login');
 });
 Route::group(['middleware' => ['auth:sanctum', 'verified']], function() {
     Route::get('/dashboard', function () {
@@ -28,4 +29,5 @@ Route::group(['middleware' => ['auth:sanctum', 'verified']], function() {
             return view('admin.component.accordion');
         })->name('accordion');
     });
+    Route::resource('user', UserController::class);
 });

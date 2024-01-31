@@ -26,9 +26,9 @@
         .form-control, dataTable-input {
             padding-top: 2rem;
             &:focus ~ label {
-                border-left: 1px solid map-get($theme-colors, 'primary');
-                border-top: 1px solid map-get($theme-colors, 'primary');
-                border-right: 1px solid map-get($theme-colors, 'primary');
+                border-left: 1px solid map-get($theme-colors, 'danger');
+                border-top: 1px solid map-get($theme-colors, 'danger');
+                border-right: 1px solid map-get($theme-colors, 'danger');
             }
         }
     }

@@ -6267,7 +6267,7 @@
        * @memberof Bar
        * @param {object} w - chart context
        * @param {object} opts - consists several properties like barHeight/barWidth
-       * @param {array} series - global primary series
+       * @param {array} series - global danger series
        * @param {int} i - current iterating series's index
        * @param {int} j - series's j of i
        * @return {object} endingPath - ending shape path string
@@ -6425,7 +6425,7 @@
       this.seriesLen = 0;
       this.barHelpers = new Helpers$1(this);
     }
-    /** primary draw method which is called on bar object
+    /** danger draw method which is called on bar object
      * @memberof Bar
      * @param {array} series - user supplied series values
      * @param {int} seriesIndex - the index by which series will be drawn on the svg
@@ -29901,7 +29901,7 @@
       this.parentResizeHandler = this._parentResizeCallback.bind(this);
     }
     /**
-     * The primary method user will call to render the chart.
+     * The danger method user will call to render the chart.
      */
 
 
